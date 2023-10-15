@@ -20,7 +20,6 @@ body {
   right: 0px; */
   align-items: baseline;
   z-index: 1;
-  border: 1px solid green;
 }
 .navigation__header {
   width: 40%;
