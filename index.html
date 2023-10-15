@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Site - Home</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/destination.css" />
+    <link rel="stylesheet" href="./css/get-started.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION SECTION -->
+    <nav>
+      <header>
+        <section class="navigation">
+          <!-- logo (should link to the homepage) -->
+          <h1 class="navigation__header">
+            <a class="navigation__header--style" href="./index.html"
+              >Travel Site</a
+            >
+          </h1>
+          <!-- working links for each page -->
+          <div>
+            <ul class="navigation__menu__list">
+              <li
+                class="navigation__menu__list__item navigation__menu__list__item--active-page"
+              >
+                <a
+                  class="navigation__menu__list__item--style"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="navigation__menu__list__item">
+                <a
+                  class="navigation__menu__list__item--style"
+                  href="./pages/hawaii.html"
+                  >Hawaii</a
+                >
+              </li>
+              <li class="navigation__menu__list__item">
+                <a
+                  class="navigation__menu__list__item--style"
+                  href="./pages/iceland.html"
+                  >Iceland</a
+                >
+              </li>
+              <li class="navigation__menu__list__item">
+                <a
+                  class="navigation__menu__list__item--style"
+                  href="./pages/greece.html"
+                  >Greece</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </header>
+    </nav>
+    <!-- HERO SECTION -->
+    <article class="hero">
+      <section class="hero__item hero__item__description">
+        <h1 class="hero__item__description--heading">
+          Travelling Comes With Endless Discoveries
+        </h1>
+        <p class="hero__item__description--paragraph">
+          Don't let your dreams be just dreams. Experience the world by booking
+          a vacation with us now.
+        </p>
+        <div class="button">
+          <a class="button--style" href="./pages/get-started.html"
+            >Get started
+          </a>
+        </div>
+      </section>
+      <section class="hero__item">
+        <div class="hero__item__image"></div>
+      </section>
+    </article>
+    <!-- RECOMMENDATIONS SECTION -->
+    <!-- one card for each destination page:Iceland, Greece, Hawaii -->
+    <!-- clicking anywhere on the card must go to the speciific destination page -->
+    <section class="recommendations-section">
+      <h2 class="recommendations-section__heading">Recommendations</h2>
+
+      <section class="recommendations-section__destination-cards">
+        <a href="./pages/hawaii.html">
+          <div class="destination-card destination-card__hawaii">
+            <p class="label">Hawaii</p>
+          </div>
+        </a>
+        <a href="./pages/iceland.html">
+          <div class="destination-card destination-card__iceland">
+            <p class="label">Iceland</p>
+          </div>
+        </a>
+        <a href="./pages/greece.html">
+          <div class="destination-card destination-card__greece">
+            <p class="label">Greece</p>
+          </div>
+        </a>
+      </section>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section">
+      <section class="footer-section__item">
+        <h3 class="footer-section__item--heading">Contact</h3>
+        <section class="footer-section__item--information">
+          <div>
+            <p class="footer-section__item--subheading">Email</p>
+            <p class="footer-section__item--description">info@travelsite.com</p>
+          </div>
+        </section>
+      </section>
+      <section class="footer-section__item">
+        <section class="footer-section__item--schedule">
+          <h3 class="footer-section__item--heading">Hours</h3>
+          <section class="footer-section__item--information">
+            <div>
+              <p class="footer-section__item--subheading">Monday - Friday</p>
+              <section class="footer-section__item--sub-information">
+                <p class="footer-section__item--description">
+                  9:00 AM - 5:00 PM
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="footer-section__item--information">
+            <div>
+              <p class="footer-section__item--subheading">Saturday</p>
+
+              <p class="footer-section__item--description">
+                10:00 AM - 4:00 PM
+              </p>
+            </div>
+          </section>
+          <section class="footer-section__item--information">
+            <div>
+              <p class="footer-section__item--subheading">Sunday</p>
+              <p class="footer-section__item--description">Closed</p>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section class="footer-section__item">
+        <h3 class="footer-section__item--heading">Social</h3>
+        <section
+          class="footer-section__item--information footer-section__item__social-media__icons"
+        >
+          <a
+            class="footer-section__item__social-media__icons--img--style footer-section__item__social-media__icons__img--instagram"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+          </a>
+          <a
+            class="footer-section__item__social-media__icons--img--style footer-section__item__social-media__icons__img--facebook"
+            href="https://www.facebook.com/"
+            target="_blank"
+          >
+          </a>
+          <a
+            class="footer-section__item__social-media__icons--img--style footer-section__item__social-media__icons__img--twitter"
+            href="https://twitter.com/"
+            target="_blank"
+          >
+          </a>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

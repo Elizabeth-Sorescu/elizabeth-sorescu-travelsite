@@ -1,0 +1,22 @@
+.reservation-section {
+  text-align: left;
+  /* border: 1px solid red; */
+}
+.reservation-section__form {
+  margin-top: 2rem;
+  /* border: 1px solid red; */
+}
+.reservation__label {
+  color: #335576;
+  margin: 0.5rem 0rem;
+  font-weight: bold;
+}
+.reservation__label--terms-style,
+.reservation__label--home-style {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+.reservation__label--terms {
+  font-style: italic;
+  font-size: 0.8rem;
+}
