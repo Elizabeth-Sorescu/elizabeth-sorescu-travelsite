@@ -1,11 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.navigation__menu__list__item--active-page {
-  text-decoration: 5px underline #db7a4e;
-}
+/* This is the destination style file */
 .destination-page__item__heading {
   color: #ffffff;
   font-size: 5rem;

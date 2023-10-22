@@ -1,10 +1,13 @@
+/* This is the global style file */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Verdana;
-}
-.confirmation__section,
-.reservation-section {
-  padding-top: 2rem;
-  margin-left: 5rem;
+  color: #335576;
+  overflow-x: hidden;
 }
 /* NAVIGATION SECTION */
 .navigation {
@@ -37,12 +40,16 @@ body {
 .navigation__menu__list__item {
   list-style-type: none;
 }
+.navigation__menu__list__item--active-page {
+  text-decoration: 5px underline #db7a4e;
+}
 .navigation__menu__list__item:hover {
   text-decoration: 5px underline #000000;
 }
 .navigation__menu__list__item--style {
   text-decoration: none;
   color: #000000;
+  font-size: 1.2rem;
 }
 /* FOOTER SECTION */
 .footer-section {
@@ -59,7 +66,6 @@ body {
 }
 .footer-section__item--heading {
   font-size: 2rem;
-  color: #335576;
 }
 .footer-section__item--information {
   display: inline-block;
@@ -72,13 +78,11 @@ body {
   font-weight: 520;
 }
 .footer-section__item--description {
-  color: #335576;
   margin-top: 1rem;
   font-size: 1.3rem;
 }
 .footer-section__item__social-media__icons {
   display: flex;
-
   padding-top: 1.2rem;
   padding-left: 0rem;
   box-sizing: border-box;
@@ -100,4 +104,9 @@ body {
 }
 .footer-section__item__social-media__icons__img--twitter {
   background-image: url(../assets/Icons/icon-twitter.png);
+}
+.confirmation__section,
+.reservation-section {
+  padding-top: 2rem;
+  margin-left: 5rem;
 }

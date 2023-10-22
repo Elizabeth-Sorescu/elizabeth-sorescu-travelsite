@@ -1,8 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* This is the Get Started button style file */
 .reservation-section {
   text-align: left;
   background-color: #ffffff;
@@ -13,7 +9,6 @@
   margin-top: 2rem;
 }
 .reservation__label {
-  color: #335576;
   margin: 0.5rem 0rem;
   font-weight: bold;
 }
