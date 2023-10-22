@@ -1,10 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .reservation-section {
   text-align: left;
-  /* border: 1px solid red; */
+  background-color: #ffffff;
+  padding: 0rem 2rem 1rem 2rem;
+  border-radius: 5%;
 }
 .reservation-section__form {
   margin-top: 2rem;
-  /* border: 1px solid red; */
 }
 .reservation__label {
   color: #335576;
@@ -19,4 +25,18 @@
 .reservation__label--terms {
   font-style: italic;
   font-size: 0.8rem;
+}
+.hero__get-started {
+  padding: 6rem 5rem 0rem 5rem;
+  margin: 0rem;
+  background-color: #fefaf5;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section__get-started {
+  padding: 0rem 12rem;
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: center;
 }

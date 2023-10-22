@@ -1,7 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .confirmation__message {
   margin-top: 8rem;
   color: #335576;
   font-weight: bold;
   height: 11vh;
-  /* vertical-align: middle; */
 }
