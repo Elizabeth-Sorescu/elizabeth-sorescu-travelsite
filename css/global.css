@@ -39,7 +39,6 @@ body {
 }
 .navigation__menu__list__item {
   list-style-type: none;
-  /* border: 1px solid red; */
 }
 .navigation__menu__list__item--active-page {
   text-decoration: 5px underline #db7a4e;
@@ -53,7 +52,6 @@ body {
   text-decoration: none;
   color: #000000;
   font-size: 1.2rem;
-  /* letter-spacing: 0.03125rem; */
 }
 /* FOOTER SECTION */
 .footer-section {
