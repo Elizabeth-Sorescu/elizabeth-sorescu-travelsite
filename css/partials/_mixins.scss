@@ -1,0 +1,24 @@
+@use "./variables" as *;
+
+// IMAGE STYLE
+@mixin image-style {
+  background-repeat: $background-repeat;
+  background-position: $background-position;
+  background-size: $background-size;
+}
+// MEDIA QUERIES
+@mixin mobile {
+  @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
+}

@@ -1,0 +1,59 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+.destination-card {
+  @include image-style;
+  height: 36rem;
+  width: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.31rem;
+  box-shadow: 0px 4px 4px $destination-card-box-shadow-color;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  @include mobile {
+    height: 18rem;
+    width: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  @include tablet {
+    height: 26rem;
+    width: 18rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  &__hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+  }
+  &__iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+  }
+  &__greece {
+    background-image: url(../assets/Images/greece.jpg);
+  }
+  &:hover {
+    border: 4px solid $destination-card-hover-border-color;
+    opacity: 0.7;
+  }
+  &__label {
+    font-size: 2rem;
+    color: $labels-text-color;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1.37rem;
+    right: 2.18rem;
+    @include mobile {
+      font-size: 1.5rem;
+      bottom: 1rem;
+      right: 1.18rem;
+    }
+    @include tablet {
+      font-size: 1.7rem;
+      bottom: 1.1rem;
+      right: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/* This is the global style file */
+// @use "../css/partials/mixins" as *;
+@use "../css/partials/global-styles/navigation-bar";
+@use "../css/partials/global-styles/footer-bar";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana;
+  color: #335576;
+  overflow-x: hidden;
+}

@@ -1,0 +1,39 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+.recommendations-section {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  @include mobile {
+    margin-top: 2rem;
+  }
+  @include tablet {
+    margin-top: 3rem;
+  }
+  &__heading {
+    font-size: 2rem;
+    margin: 0em;
+    padding-left: 5rem;
+    @include mobile {
+      font-size: 1rem;
+      padding-left: 3rem;
+    }
+    @include tablet {
+      font-size: 1.5rem;
+      padding-left: 4rem;
+    }
+  }
+  &__destination-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0em 16em 5em 16em;
+    @include mobile {
+      padding: 0em 1em 2.5em 1em;
+    }
+    @include tablet {
+      padding: 0em 2em 3.5em 2em;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+.hero {
+  padding: 6rem 5rem;
+  margin: auto;
+  background-color: $hero-background-color;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  @include mobile {
+    padding: 5rem 3rem 4rem 3rem;
+  }
+  @include tablet {
+    padding: 5rem 4rem 3rem 4rem;
+  }
+  &__item__description {
+    text-align: left;
+    width: 57rem;
+    padding-top: 5rem;
+    @include mobile {
+      width: 20rem;
+      padding-top: 3rem;
+    }
+    @include tablet {
+      width: 26rem;
+      padding-top: 4rem;
+    }
+  }
+  &__item__description--heading {
+    font-size: 3.51rem;
+    font-weight: bold;
+    @include mobile {
+      font-size: 1.2rem;
+    }
+    @include tablet {
+      font-size: 2rem;
+    }
+  }
+  &__item__description--paragraph {
+    font-size: 1.4rem;
+    @include mobile {
+      font-size: 0.7rem;
+      width: 20rem;
+    }
+    @include tablet {
+      font-size: 1.1rem;
+      width: 30rem;
+    }
+  }
+  &__item__image {
+    background-image: url(../assets/Images/hero.png);
+    padding: 5rem;
+    @include image-style;
+    height: 33rem;
+    width: 41rem;
+    @include mobile {
+      padding: 1rem;
+      height: 11rem;
+      width: 13rem;
+    }
+    @include tablet {
+      padding: 7rem;
+      height: 21rem;
+      width: 26rem;
+    }
+  }
+}
+.button {
+  background-color: $buttons-background-color;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 3rem;
+  width: 12rem;
+  border-radius: 2.5rem;
+  @include mobile {
+    font-size: 1rem;
+    margin-top: 2rem;
+    width: 8rem;
+  }
+  @include tablet {
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+    width: 10rem;
+  }
+  &--style {
+    text-decoration: none;
+    color: $labels-text-color;
+  }
+}

@@ -1,6 +1,8 @@
 /* This is the Confirmation Page style file */
+@use "../css/partials/mixins" as *;
+
 .confirmation__message {
   margin-top: 8rem;
   font-weight: bold;
   height: 11vh;
-}/*# sourceMappingURL=confirmation.css.map */
+}
