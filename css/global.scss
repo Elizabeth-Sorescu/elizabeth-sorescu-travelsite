@@ -1,8 +1,7 @@
 /* This is the global style file */
-// @use "../css/partials/mixins" as *;
 @use "../css/partials/variables" as *;
-@use "../css/partials/global-styles/navigation-bar";
-@use "../css/partials/global-styles/footer-bar";
+@use "../css/partials/common-styles/navigation-bar";
+@use "../css/partials/common-styles/footer-bar";
 * {
   padding: 0;
   margin: 0;

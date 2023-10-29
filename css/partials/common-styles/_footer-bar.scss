@@ -75,7 +75,7 @@
       font-size: 0.75rem;
     }
   }
-  &__item__social-media__icons {
+  &__item--icons {
     display: flex;
     padding-top: 1.2rem;
     padding-left: 0rem;
@@ -89,7 +89,7 @@
       padding-left: 0rem;
     }
   }
-  &__item__social-media__icons--img--style {
+  &__item--img {
     padding: 1rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,10 +103,10 @@
       padding: 0.8rem;
     }
   }
-  &__item__social-media__icons__img--instagram {
+  &__item--instagram {
     background-image: url(../assets/Icons/icon-instagram.png);
   }
-  &__item__social-media__icons__img--facebook {
+  &__item--facebook {
     background-image: url(../assets/Icons/icon-facebook.png);
     padding: 1rem 0.5rem;
     @include mobile {
@@ -116,7 +116,7 @@
       padding: 0.8rem 0.4rem;
     }
   }
-  &__item__social-media__icons__img--twitter {
+  &__item--twitter {
     background-image: url(../assets/Icons/icon-twitter.png);
   }
 }

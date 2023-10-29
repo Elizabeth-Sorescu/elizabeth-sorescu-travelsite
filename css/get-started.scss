@@ -1,7 +1,7 @@
 /* This is the Get Started button style file */
 @use "../css/partials/variables" as *;
 @use "../css/partials/mixins" as *;
-@use "../css/partials/global-styles/footer-bar" as *;
+@use "../css/partials/common-styles/footer-bar" as *;
 .reservation-section {
   text-align: left;
   padding: 0rem 2rem 1rem 2rem;

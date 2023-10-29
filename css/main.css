@@ -421,25 +421,25 @@
     font-size: 0.75rem;
   }
 }
-.footer-section__item__social-media__icons {
+.footer-section__item--icons {
   display: flex;
   padding-top: 1.2rem;
   padding-left: 0rem;
   box-sizing: border-box;
 }
 @media (min-width: 0px) and (max-width: 767px) {
-  .footer-section__item__social-media__icons {
+  .footer-section__item--icons {
     padding-top: 0.5rem;
     padding-left: 0rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1307px) {
-  .footer-section__item__social-media__icons {
+  .footer-section__item--icons {
     padding-top: 0.6rem;
     padding-left: 0rem;
   }
 }
-.footer-section__item__social-media__icons--img--style {
+.footer-section__item--img {
   padding: 1rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -448,33 +448,33 @@
   margin-right: 2.5rem;
 }
 @media (min-width: 0px) and (max-width: 767px) {
-  .footer-section__item__social-media__icons--img--style {
+  .footer-section__item--img {
     padding: 0.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1307px) {
-  .footer-section__item__social-media__icons--img--style {
+  .footer-section__item--img {
     padding: 0.8rem;
   }
 }
-.footer-section__item__social-media__icons__img--instagram {
+.footer-section__item--instagram {
   background-image: url(../assets/Icons/icon-instagram.png);
 }
-.footer-section__item__social-media__icons__img--facebook {
+.footer-section__item--facebook {
   background-image: url(../assets/Icons/icon-facebook.png);
   padding: 1rem 0.5rem;
 }
 @media (min-width: 0px) and (max-width: 767px) {
-  .footer-section__item__social-media__icons__img--facebook {
+  .footer-section__item--facebook {
     padding: 0.5rem 0.25rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1307px) {
-  .footer-section__item__social-media__icons__img--facebook {
+  .footer-section__item--facebook {
     padding: 0.8rem 0.4rem;
   }
 }
-.footer-section__item__social-media__icons__img--twitter {
+.footer-section__item--twitter {
   background-image: url(../assets/Icons/icon-twitter.png);
 }
 
