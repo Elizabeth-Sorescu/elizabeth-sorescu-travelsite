@@ -2,120 +2,123 @@
 @use "../mixins" as *;
 /* FOOTER SECTION */
 .footer-section {
-  background-color: #fefaf5;
+  background-color: $hero-background-color;
   display: flex;
   justify-content: center;
   padding: 1rem 1rem;
   margin: auto;
   @include mobile {
+    display: inline-block;
+    padding-top: 0.5rem;
+    width: 100vw;
+    padding-left: 4rem;
+  }
+  @include tablet {
     padding-top: 0.5rem;
   }
-  @include tablet {
-    padding: 0.5rem 0.5rem;
+  &__item {
+    margin: 3rem;
+    @include mobile {
+      margin: auto;
+    }
+    @include tablet {
+      margin: 0rem;
+    }
   }
-}
-.footer-section__item {
-  margin: 3rem;
-  @include mobile {
-    margin: 0rem;
+  &__item--schedule {
+    width: 38rem;
+    @include mobile {
+      width: 19rem;
+    }
+    @include tablet {
+      width: 19rem;
+    }
   }
-  @include tablet {
-    margin: 2rem;
+  &__item--heading {
+    font-size: 2rem;
+    @include mobile {
+      font-size: 1rem;
+    }
+    @include tablet {
+      font-size: 1rem;
+    }
   }
-}
-.footer-section__item--schedule {
-  width: 38rem;
-  @include mobile {
-    width: 19rem;
+  &__item--information {
+    display: inline-block;
+    margin: 2rem 2rem 0rem 0rem;
+    @include mobile {
+      margin: 1rem 1rem 0rem 0rem;
+    }
+    @include tablet {
+      margin: 1rem 1rem 0rem 0rem;
+    }
   }
-  @include tablet {
-    width: 28rem;
+  &__item--subheading {
+    color: #db7a4e;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 520;
+    @include mobile {
+      font-size: 0.5rem;
+    }
+    @include tablet {
+      font-size: 0.5rem;
+    }
   }
-}
-.footer-section__item--heading {
-  font-size: 2rem;
-  @include mobile {
-    font-size: 1rem;
+  &__item--description {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    @include mobile {
+      font-size: 0.75rem;
+    }
+    @include tablet {
+      font-size: 0.75rem;
+    }
   }
-  @include tablet {
-    font-size: 1.5rem;
-  }
-}
-.footer-section__item--information {
-  display: inline-block;
-  margin: 2rem 2rem 0rem 0rem;
-  @include mobile {
-    margin: 1rem 1rem 0rem 0rem;
-  }
-  @include tablet {
-    margin: 1.5rem 1.5rem 0rem 0rem;
-  }
-}
-.footer-section__item--subheading {
-  color: #db7a4e;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  font-weight: 520;
-  @include mobile {
-    font-size: 0.5rem;
-  }
-  @include tablet {
-    font-size: 0.7rem;
-  }
-}
-.footer-section__item--description {
-  margin-top: 1rem;
-  font-size: 1.3rem;
-  @include mobile {
-    font-size: 0.75rem;
-  }
-  @include tablet {
-    font-size: 1rem;
-  }
-}
-.footer-section__item__social-media__icons {
-  display: flex;
-  padding-top: 1.2rem;
-  padding-left: 0rem;
-  box-sizing: border-box;
-  @include mobile {
-    padding-top: 0.6rem;
+  &__item__social-media__icons {
+    display: flex;
+    padding-top: 1.2rem;
     padding-left: 0rem;
+    box-sizing: border-box;
+    @include mobile {
+      padding-top: 0.5rem;
+      padding-left: 0rem;
+    }
+    @include tablet {
+      padding-top: 0.6rem;
+      padding-left: 0rem;
+    }
   }
-  @include tablet {
-    padding-top: 0.9rem;
-    padding-left: 0rem;
+  &__item__social-media__icons--img--style {
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 0rem;
+    margin-right: 2.5rem;
+    @include mobile {
+      padding: 0.5rem;
+    }
+    @include tablet {
+      padding: 0.8rem;
+    }
   }
-}
-.footer-section__item__social-media__icons--img--style {
-  padding: 1rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 0rem;
-  margin-right: 2.5rem;
-  @include mobile {
-    padding: 0.5rem;
+  &__item__social-media__icons__img--instagram {
+    background-image: url(../assets/Icons/icon-instagram.png);
   }
-  @include tablet {
-    padding: 0.8rem;
+  &__item__social-media__icons__img--facebook {
+    background-image: url(../assets/Icons/icon-facebook.png);
+    padding: 1rem 0.5rem;
+    @include mobile {
+      padding: 0.5rem 0.25rem;
+    }
+    @include tablet {
+      padding: 0.8rem 0.4rem;
+    }
   }
-}
-.footer-section__item__social-media__icons__img--instagram {
-  background-image: url(../assets/Icons/icon-instagram.png);
-}
-.footer-section__item__social-media__icons__img--facebook {
-  background-image: url(../assets/Icons/icon-facebook.png);
-  padding: 1rem 0.5rem;
-  @include mobile {
-    padding: 0.5rem 0.25rem;
+  &__item__social-media__icons__img--twitter {
+    background-image: url(../assets/Icons/icon-twitter.png);
   }
-  @include tablet {
-    padding: 0.8rem 0.4rem;
-  }
-}
-.footer-section__item__social-media__icons__img--twitter {
-  background-image: url(../assets/Icons/icon-twitter.png);
 }
 .confirmation__section,
 .reservation-section {

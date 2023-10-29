@@ -6,6 +6,10 @@
   background-position: $background-position;
   background-size: $background-size;
 }
+//NAVIGATION STYLE
+@mixin width-style {
+  width: 100vw;
+}
 // MEDIA QUERIES
 @mixin mobile {
   @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {

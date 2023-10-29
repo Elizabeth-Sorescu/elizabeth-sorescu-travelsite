@@ -8,63 +8,63 @@
   justify-content: space-between;
   padding: 1.6rem;
   margin: 0rem;
-  background-color: #ffffff;
+  background-color: $labels-text-color;
   position: fixed;
   align-items: baseline;
   z-index: 1;
   @include mobile {
-    width: 100vw;
+    @include width-style;
   }
   @include tablet {
-    width: 100vw;
+    @include width-style;
   }
-}
-.navigation__header {
-  width: 15rem;
-  margin-right: auto;
-}
-.navigation__header--style {
-  text-decoration: none;
-  color: #335576;
-  font-size: 1.5rem;
-  padding-left: 4rem;
-  @include mobile {
-    font-size: 0.75rem;
-    display: inline-flex;
-    padding-left: 2rem;
+
+  &__header {
+    width: 15rem;
+    margin-right: auto;
   }
-  @include tablet {
-    font-size: 1rem;
-    display: inline-flex;
-    padding-left: 3rem;
+  &__header--style {
+    text-decoration: none;
+    color: $primary-color;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    @include mobile {
+      font-size: 1rem;
+      display: inline-flex;
+      padding-left: 1rem;
+    }
+    @include tablet {
+      font-size: 1.2rem;
+      display: inline-flex;
+      padding-left: 2rem;
+    }
   }
-}
-.navigation__menu__list {
-  display: flex;
-  justify-content: space-evenly;
-}
-.navigation__menu__list__item {
-  list-style-type: none;
-  padding-right: 2.5rem;
-}
-.navigation__menu__list__item--active-page {
-  text-decoration: 5px underline;
-  text-underline-offset: 0.9rem;
-  text-decoration-color: #db7a4e;
-}
-.navigation__menu__list__item:hover {
-  text-decoration: 5px underline;
-  text-underline-offset: 0.9rem;
-  text-decoration-color: #335576;
-}
-.navigation__menu__list__item--style {
-  text-decoration: none;
-  color: #000000;
-  font-size: 1.2rem;
-  @include mobile {
-    font-size: 0.6rem;
+  &__menu__list {
+    display: flex;
   }
-  @include tablet {
-    font-size: 0.9rem;
+  &__menu__list__item {
+    list-style-type: none;
+    margin-right: 2.5rem;
+  }
+  &__menu__list__item--active-page {
+    text-decoration: 5px underline;
+    text-underline-offset: 0.9rem;
+    text-decoration-color: $buttons-background-color;
+  }
+  &__menu__list__item:hover {
+    text-decoration: 5px underline;
+    text-underline-offset: 0.9rem;
+    text-decoration-color: $primary-color;
+  }
+  &__menu__list__item--style {
+    text-decoration: none;
+    color: $destination-card-box-shadow-color;
+    font-size: 1.2rem;
+    @include mobile {
+      font-size: 1rem;
+    }
+    @include tablet {
+      font-size: 1rem;
+    }
   }
 }

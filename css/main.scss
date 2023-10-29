@@ -1,4 +1,6 @@
 /* This file has the most of the Home page's style */
+@use "../css/partials/global-styles/navigation-bar";
 @use "../css/partials/main-page-styles/main-hero-section";
 @use "../css/partials/main-page-styles/main-recommendations-section";
 @use "../css/partials/main-page-styles/main-destination-cards-section";
+@use "../css/partials/global-styles/footer-bar";

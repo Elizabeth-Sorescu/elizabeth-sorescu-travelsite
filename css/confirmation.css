@@ -3,4 +3,18 @@
   margin-top: 8rem;
   font-weight: bold;
   height: 11vh;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .confirmation__message {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    width: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .confirmation__message {
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    width: auto;
+  }
 }/*# sourceMappingURL=confirmation.css.map */

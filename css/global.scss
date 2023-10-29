@@ -1,5 +1,6 @@
 /* This is the global style file */
 // @use "../css/partials/mixins" as *;
+@use "../css/partials/variables" as *;
 @use "../css/partials/global-styles/navigation-bar";
 @use "../css/partials/global-styles/footer-bar";
 * {
@@ -9,6 +10,6 @@
 }
 body {
   font-family: Verdana;
-  color: #335576;
+  color: $primary-color;
   overflow-x: hidden;
 }

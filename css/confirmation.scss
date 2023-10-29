@@ -5,4 +5,14 @@
   margin-top: 8rem;
   font-weight: bold;
   height: 11vh;
+  @include mobile {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    width: auto;
+  }
+  @include tablet {
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    width: auto;
+  }
 }

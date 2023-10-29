@@ -8,18 +8,21 @@
   display: flex;
   justify-content: space-between;
   @include mobile {
+    display: inline;
     padding: 5rem 3rem 4rem 3rem;
+    background-color: unset;
   }
   @include tablet {
-    padding: 5rem 4rem 3rem 4rem;
+    padding: 5rem 3rem 4rem 3rem;
   }
   &__item__description {
     text-align: left;
     width: 57rem;
     padding-top: 5rem;
     @include mobile {
-      width: 20rem;
-      padding-top: 3rem;
+      width: auto;
+      margin-top: 0rem;
+      padding-left: 4rem;
     }
     @include tablet {
       width: 26rem;
@@ -30,7 +33,9 @@
     font-size: 3.51rem;
     font-weight: bold;
     @include mobile {
-      font-size: 1.2rem;
+      padding-top: 1rem;
+      font-size: 2rem;
+      width: auto;
     }
     @include tablet {
       font-size: 2rem;
@@ -39,12 +44,12 @@
   &__item__description--paragraph {
     font-size: 1.4rem;
     @include mobile {
-      font-size: 0.7rem;
-      width: 20rem;
+      font-size: 1rem;
+      width: auto;
     }
     @include tablet {
-      font-size: 1.1rem;
-      width: 30rem;
+      font-size: 0.7rem;
+      width: 20rem;
     }
   }
   &__item__image {
@@ -54,14 +59,16 @@
     height: 33rem;
     width: 41rem;
     @include mobile {
-      padding: 1rem;
-      height: 11rem;
-      width: 13rem;
+      width: auto;
+      display: inline-block;
+      padding: 4rem;
+      height: 18rem;
+      width: 22rem;
     }
     @include tablet {
-      padding: 7rem;
-      height: 21rem;
-      width: 26rem;
+      padding: 4rem;
+      height: 18rem;
+      width: 22rem;
     }
   }
 }
