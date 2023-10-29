@@ -13,7 +13,7 @@
     <!-- NAVIGATION SECTION -->
     <nav>
       <header>
-        <section class="navigation">
+        <div class="navigation">
           <h1 class="navigation__header">
             <a class="navigation__header--style" href="../index.html"
               >Travel Site</a
@@ -53,13 +53,13 @@
               </li>
             </ul>
           </div>
-        </section>
+        </div>
       </header>
     </nav>
     <!-- GET STARTED SECTION -->
-    <article class="hero__get-started">
+    <main class="hero__get-started">
       <section class="reservation-section">
-        <h1 class="hero__item__description--heading">Reservation Form</h1>
+        <h2 class="hero__item__description--heading">Reservation Form</h2>
         <form class="reservation-section__form">
           <p class="reservation__label">Full Name</p>
           <input type="text" placeholder="First Name   Last Name" />
@@ -68,15 +68,16 @@
           <p class="reservation__label">Contact Number</p>
           <input type="number" placeholder="Number" />
           <p class="reservation__label">Select Destination Package:</p>
-          <select name="package" id="">
-            <option value="Hawaii">Hawaii</option>
-            <option value="Iceland">Iceland</option>
-            <option value="Greece">Greece</option>
+          <select name="package" id="destination-package">
+            <option value="no-value">Choose your destination</option>
+            <option value="hawaii">Hawaii</option>
+            <option value="iceland">Iceland</option>
+            <option value="greece">Greece</option>
           </select>
           <p class="reservation__label">Check-in:</p>
-          <input type="date" placeholder="d/m/y" />
+          <input type="date" />
           <p class="reservation__label">Check-out:</p>
-          <input type="date" placeholder="d/m/y" />
+          <input type="date" />
           <p class="reservation__label">Number of Guests</p>
           <input type="number" placeholder="Number" />
           <div class="reservation__label">
@@ -97,54 +98,45 @@
           </p>
         </form>
       </section>
-      <section class="hero__item">
-        <div class="hero__item__image"></div>
-      </section>
-    </article>
+      <div class="hero__item hero__item--image"></div>
+    </main>
     <!-- FOOTER SECTION -->
     <footer class="footer-section__get-started">
       <section class="footer-section__item">
         <h3 class="footer-section__item--heading">Contact</h3>
-        <section class="footer-section__item--information">
+        <div class="footer-section__item--information">
           <div>
             <p class="footer-section__item--subheading">Email</p>
             <p class="footer-section__item--description">info@travelsite.com</p>
           </div>
-        </section>
+        </div>
       </section>
-      <section class="footer-section__item">
+      <div class="footer-section__item">
         <section class="footer-section__item--schedule">
           <h3 class="footer-section__item--heading">Hours</h3>
-          <section class="footer-section__item--information">
+          <div class="footer-section__item--information">
             <div>
               <p class="footer-section__item--subheading">Monday - Friday</p>
-              <section class="footer-section__item--sub-information">
+              <div class="footer-section__item--sub-information">
                 <p class="footer-section__item--description">
                   9:00 AM - 5:00 PM
                 </p>
-              </section>
+              </div>
             </div>
-          </section>
-          <section class="footer-section__item--information">
-            <div>
-              <p class="footer-section__item--subheading">Saturday</p>
-
-              <p class="footer-section__item--description">
-                10:00 AM - 4:00 PM
-              </p>
-            </div>
-          </section>
-          <section class="footer-section__item--information">
-            <div>
-              <p class="footer-section__item--subheading">Sunday</p>
-              <p class="footer-section__item--description">Closed</p>
-            </div>
-          </section>
+          </div>
+          <div class="footer-section__item--information">
+            <p class="footer-section__item--subheading">Saturday</p>
+            <p class="footer-section__item--description">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer-section__item--information">
+            <p class="footer-section__item--subheading">Sunday</p>
+            <p class="footer-section__item--description">Closed</p>
+          </div>
         </section>
-      </section>
+      </div>
       <section class="footer-section__item">
         <h3 class="footer-section__item--heading">Social</h3>
-        <section
+        <div
           class="footer-section__item--information footer-section__item__social-media__icons"
         >
           <a
@@ -165,7 +157,7 @@
             target="_blank"
           >
           </a>
-        </section>
+        </div>
       </section>
     </footer>
   </body>

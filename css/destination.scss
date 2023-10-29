@@ -4,7 +4,7 @@
 .destination-page {
   &__item__heading {
     color: $labels-text-color;
-    font-size: 5rem;
+    font-size: 3.5rem;
     padding-left: 5rem;
     @include mobile {
       font-size: 2rem;
@@ -20,7 +20,7 @@
     @include image-style;
     height: 113vh;
     width: 100vw;
-    padding-top: 10rem;
+    padding-top: 9rem;
     @include mobile {
       height: 82.5vh;
       width: 98vw;
@@ -46,7 +46,7 @@
   }
   &__item--cards {
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 5rem;
     @include mobile {
       padding-top: 1rem;
     }

@@ -12,7 +12,7 @@
     <!-- NAVIGATION SECTION -->
     <nav>
       <header>
-        <section class="navigation">
+        <div class="navigation">
           <h1 class="navigation__header">
             <a class="navigation__header--style" href="../index.html"
               >Travel Site</a
@@ -52,15 +52,17 @@
               </li>
             </ul>
           </div>
-        </section>
+        </div>
       </header>
     </nav>
     <!-- HAWAII DESTINATION SECTION -->
-    <article class="destination-page">
-      <section
+    <main class="destination-page">
+      <div
         class="destination-page__item destination-page__item--image-hawaii destination-page__item--image--style"
       >
-        <div class="destination-page__item__heading"><h1>Hawaii</h1></div>
+        <section class="destination-page__item__heading">
+          <h2>Hawaii</h2>
+        </section>
         <section class="destination-page__item--cards">
           <div
             class="destination-page__item--card destination-page__item--card--friday"
@@ -96,52 +98,41 @@
             </ul>
           </div>
         </section>
-      </section>
-    </article>
+      </div>
+    </main>
     <!-- FOOTER SECTION -->
     <footer class="footer-section">
       <section class="footer-section__item">
         <h3 class="footer-section__item--heading">Contact</h3>
-        <section class="footer-section__item--information">
+        <div class="footer-section__item--information">
           <div>
             <p class="footer-section__item--subheading">Email</p>
             <p class="footer-section__item--description">info@travelsite.com</p>
           </div>
-        </section>
+        </div>
       </section>
-      <section class="footer-section__item">
+      <div class="footer-section__item">
         <section class="footer-section__item--schedule">
           <h3 class="footer-section__item--heading">Hours</h3>
-          <section class="footer-section__item--information">
-            <div>
-              <p class="footer-section__item--subheading">Monday - Friday</p>
-              <section class="footer-section__item--sub-information">
-                <p class="footer-section__item--description">
-                  9:00 AM - 5:00 PM
-                </p>
-              </section>
+          <div class="footer-section__item--information">
+            <p class="footer-section__item--subheading">Monday - Friday</p>
+            <div class="footer-section__item--sub-information">
+              <p class="footer-section__item--description">9:00 AM - 5:00 PM</p>
             </div>
-          </section>
-          <section class="footer-section__item--information">
-            <div>
-              <p class="footer-section__item--subheading">Saturday</p>
-
-              <p class="footer-section__item--description">
-                10:00 AM - 4:00 PM
-              </p>
-            </div>
-          </section>
-          <section class="footer-section__item--information">
-            <div>
-              <p class="footer-section__item--subheading">Sunday</p>
-              <p class="footer-section__item--description">Closed</p>
-            </div>
-          </section>
+          </div>
+          <div class="footer-section__item--information">
+            <p class="footer-section__item--subheading">Saturday</p>
+            <p class="footer-section__item--description">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer-section__item--information">
+            <p class="footer-section__item--subheading">Sunday</p>
+            <p class="footer-section__item--description">Closed</p>
+          </div>
         </section>
-      </section>
+      </div>
       <section class="footer-section__item">
         <h3 class="footer-section__item--heading">Social</h3>
-        <section
+        <div
           class="footer-section__item--information footer-section__item__social-media__icons"
         >
           <a
@@ -162,7 +153,7 @@
             target="_blank"
           >
           </a>
-        </section>
+        </div>
       </section>
     </footer>
   </body>

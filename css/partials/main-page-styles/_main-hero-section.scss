@@ -52,7 +52,7 @@
       width: 20rem;
     }
   }
-  &__item__image {
+  &__item--image {
     background-image: url(../assets/Images/hero.png);
     padding: 5rem;
     @include image-style;
