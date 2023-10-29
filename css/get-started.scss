@@ -71,8 +71,7 @@
   background-color: $hero-background-color;
   display: flex;
   justify-content: center;
-  height: auto;
-  width: auto;
+  @include auto-width-height;
   @include mobile {
     display: inline-block;
     padding-top: 0.5rem;

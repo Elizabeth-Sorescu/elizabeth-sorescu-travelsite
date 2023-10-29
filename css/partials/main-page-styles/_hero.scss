@@ -73,13 +73,7 @@
   }
 }
 .button {
-  background-color: $buttons-background-color;
-  font-size: 1.3rem;
-  text-align: center;
-  padding: 0.5em;
-  margin-top: 3rem;
-  width: 12rem;
-  border-radius: 2.5rem;
+  @include buttons($buttons-background-color);
   @include mobile {
     font-size: 1rem;
     margin-top: 2rem;

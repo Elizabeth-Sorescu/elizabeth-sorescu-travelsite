@@ -3,9 +3,7 @@
 @use "../css/partials/mixins" as *;
 .destination-page {
   &__item__heading {
-    color: $labels-text-color;
-    font-size: 3.5rem;
-    padding-left: 5rem;
+    @include destination-heading($labels-text-color);
     @include mobile {
       font-size: 2rem;
       padding-left: 2rem;
@@ -24,8 +22,7 @@
     @include mobile {
       height: 82.5vh;
       width: 98vw;
-      width: auto;
-      height: auto;
+      @include auto-width-height;
       padding-top: 8rem;
       padding-bottom: 5rem;
     }
@@ -52,13 +49,7 @@
     }
   }
   &__item--card {
-    background-color: $labels-text-color;
-    width: 24rem;
-    display: inline-block;
-    padding: 0rem 1.5rem;
-    padding-bottom: 4.5rem;
-    margin: 0rem 1.5rem;
-    border-radius: 0.5rem;
+    @include card($labels-text-color);
     @include mobile {
       width: 9rem;
       padding-bottom: 1rem;
@@ -71,11 +62,7 @@
     }
   }
   &__item__sub-heading {
-    font-size: 2rem;
-    text-align: center;
-    border-bottom: 0.25rem solid $destination-card-box-shadow-color;
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
+    @include subheading($destination-card-box-shadow-color);
     @include mobile {
       font-size: 1rem;
       margin-top: 0.4rem;
@@ -89,12 +76,7 @@
   }
 }
 .activity__list__item {
-  font-size: 1.3rem;
-  background-color: $hero-background-color;
-  margin: 1.5rem 0rem;
-  text-align: center;
-  list-style-type: none;
-  padding: 1.3rem 2rem;
+  @include activity-list($hero-background-color);
   @include mobile {
     font-size: 1rem;
     margin: 0.75rem 0rem;

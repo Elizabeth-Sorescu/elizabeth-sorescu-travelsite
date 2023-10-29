@@ -3,8 +3,7 @@
 
 .recommendations-section {
   margin-top: 5rem;
-  margin-left: auto;
-  margin-right: auto;
+  @include auto-margin-left-right;
   @include mobile {
     margin-top: 2rem;
   }
