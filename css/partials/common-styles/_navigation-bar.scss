@@ -39,24 +39,24 @@
       padding-left: 2rem;
     }
   }
-  &__menu__list {
+  &__menu--list {
     display: flex;
   }
-  &__menu__list__item {
+  &__menu--list-item {
     list-style-type: none;
     margin-right: 2.5rem;
   }
-  &__menu__list__item--active-page {
+  &__menu--list-item-active {
     text-decoration: 5px underline;
     text-underline-offset: 0.9rem;
     text-decoration-color: $buttons-background-color;
   }
-  &__menu__list__item:hover {
+  &__menu--list-item:hover {
     text-decoration: 5px underline;
     text-underline-offset: 0.9rem;
     text-decoration-color: $primary-color;
   }
-  &__menu__list__item--style {
+  &__menu--list-item-style {
     text-decoration: none;
     color: $destination-card-box-shadow-color;
     font-size: 1.2rem;

@@ -5,7 +5,7 @@
   background-color: $hero-background-color;
   display: flex;
   justify-content: center;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
   margin: auto;
   @include mobile {
     display: inline-block;
@@ -28,51 +28,51 @@
   &__item--schedule {
     width: 38rem;
     @include mobile {
-      width: 19rem;
+      @include footer-schedule;
     }
     @include tablet {
-      width: 19rem;
+      @include footer-schedule;
     }
   }
   &__item--heading {
     font-size: 2rem;
     @include mobile {
-      font-size: 1rem;
+      @include footer-heading;
     }
     @include tablet {
-      font-size: 1rem;
+      @include footer-heading;
     }
   }
   &__item--information {
     display: inline-block;
     margin: 2rem 2rem 0rem 0rem;
     @include mobile {
-      margin: 1rem 1rem 0rem 0rem;
+      @include footer-information;
     }
     @include tablet {
-      margin: 1rem 1rem 0rem 0rem;
+      @include footer-information;
     }
   }
   &__item--subheading {
-    color: #db7a4e;
+    color: $buttons-background-color;
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 520;
     @include mobile {
-      font-size: 0.5rem;
+      @include footer-subheading;
     }
     @include tablet {
-      font-size: 0.5rem;
+      @include footer-subheading;
     }
   }
   &__item--description {
     margin-top: 1rem;
     font-size: 1.3rem;
     @include mobile {
-      font-size: 0.75rem;
+      @include footer-description;
     }
     @include tablet {
-      font-size: 0.75rem;
+      @include footer-description;
     }
   }
   &__item--icons {
@@ -82,11 +82,9 @@
     box-sizing: border-box;
     @include mobile {
       padding-top: 0.5rem;
-      padding-left: 0rem;
     }
     @include tablet {
       padding-top: 0.6rem;
-      padding-left: 0rem;
     }
   }
   &__item--img {

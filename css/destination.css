@@ -1,7 +1,8 @@
 /* This is the destination style file */
 .destination-page__item__heading {
   color: #ffffff;
-  font-size: 3.5rem;
+  padding-top: 3rem;
+  font-size: 3.9rem;
   padding-left: 5rem;
 }
 @media (min-width: 0px) and (max-width: 767px) {

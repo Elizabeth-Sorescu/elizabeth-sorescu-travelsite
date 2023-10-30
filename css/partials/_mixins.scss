@@ -13,7 +13,8 @@
 // DESTINATION STYLE
 @mixin destination-heading($labels-text-color) {
   color: $labels-text-color;
-  font-size: 3.5rem;
+  padding-top: 3rem;
+  font-size: 3.9rem;
   padding-left: 5rem;
 }
 @mixin card($labels-text-color) {
@@ -73,4 +74,20 @@
   @media (min-width: $desktop-min-width) {
     @content;
   }
+}
+//MEDIA QUERIES SPECIFIC STYLES FOR FOOTER
+@mixin footer-schedule {
+  width: 19rem;
+}
+@mixin footer-heading {
+  font-size: 1rem;
+}
+@mixin footer-information {
+  margin: 1rem 1rem 0rem 0rem;
+}
+@mixin footer-subheading {
+  font-size: 0.5rem;
+}
+@mixin footer-description {
+  font-size: 0.75rem;
 }

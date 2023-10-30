@@ -4,7 +4,7 @@
   background-color: #fefaf5;
   display: flex;
   justify-content: center;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
   margin: auto;
 }
 @media (min-width: 0px) and (max-width: 767px) {
@@ -112,13 +112,11 @@
 @media (min-width: 0px) and (max-width: 767px) {
   .footer-section__item--icons {
     padding-top: 0.5rem;
-    padding-left: 0rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1307px) {
   .footer-section__item--icons {
     padding-top: 0.6rem;
-    padding-left: 0rem;
   }
 }
 .footer-section__item--img {
